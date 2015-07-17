@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></meta>
+        <link rel="stylesheet" type="text/css" href="testcss.css">
+        <script type="text/javascript" src="my_JS_file.js"></script>
+        <script type="text/javascript" src="submodalsource.js"></script>
+</head>
+
+<body id="homepage">
+
+<header> 
+<div id="header_container">
+    <div id="header">
+        Maxwell Troop | Widgetry
+</header>
+
+<nav id="primary_nav_wrap">
+      <ul><li>
+        <a href="#"><img src="http://demo.mostfit.in/img/menubutton.png"></a>
+      <ul>
+        <li><a href="Inter_Web_Home.html">Home</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="Inter_Web_Tools.html">Wigetry</a></li>
+        <li><a href="Inter_Web_Pics.html">Photo</a></li>
+        <li><a href="Inter_Web_Vid.html">Film</a></li>
+      </ul></li>     
+</nav>
+
+    </div>
+</div>
+
+<div id="container2">
+
+<div class="tabs">
+
+<!-- Bouncer-->  
+    <div class="tab">
+       <input type="radio" id="tab-1" name="tab-group-1" checked>
+       <label for="tab-1">Robo Bouncer</label>
+       
+       <div class="content">
+          <div id="content">
+            <div class="box"><b><img src="http://i1.cpcache.com/image/62693710_125x125.png" alt="RoboTroop"></b></div>
+          </div>
+       </div> 
+   </div>
+
+<!-- Gif Randomizer -->    
+   <div class="tab">
+       <input type="radio" id="tab-2" name="tab-group-1">
+       <label for="tab-2">Gif Randomizer</label>
+       
+       <div class="content">
+           <div id="content">
+            <h3><input class="randombutton" type="submit" value="Click for a Gif" onclick="randomImg1()"/><h3>
+            <h3><div id="image"></div><h3>
+    </div>
+       </div> 
+   </div>
+
+<!-- Sentence Reverser -->  
+    
+   <div class="tab">
+       <input type="radio" id="tab-3" name="tab-group-1">
+       <label for="tab-3">Sentence Reverser</label>
+       
+       <div class="content">
+
+      <form name="theForm">
+        <h4>Enter a text string:</h4>
+        <textarea name=inStr rows=5 cols=30></textarea>
+        <br>
+        <input type=button value="Reverse Words" onClick="revWords(document.theForm.inStr.value)";>
+          <br>
+          <h4>Results:</h4>
+          <textarea name=results rows=5 cols=30></textarea>
+          <br>
+          <input type=button name="theButton" value="Clear" onClick='document.theForm.results.value=""';>
+      </form>  
+     
+       </div> 
+   </div>
+
+<!-- Tip -->      
+    <div class="tab">
+       <input type="radio" id="tab-4" name="tab-group-1">
+       <label for="tab-4">Tip Calculator</label>
+     
+       <div class="content">
+           <div class="wrapper">
+            <div id="content">
+            <br>
+            <span>Total Bill Amount:  $<input type="text" id="bill" class="amount-field"> <br></span>
+            <br>
+            <span>Slide to Adjust Tip Percent:<span id="slideval">0%</span><br><br><input type="range" min="0" max="50" value="0" step="1" onchange="tipCalculate(this.value, 'bill')" class="range-style">
+            <br>
+            <br>
+            Sub Total..........<span id="preBill" class="pre-bill">$0.00</span>
+            <br>
+            Tax (8%)...........<span id="tax" class="tax">$0.00</span>
+            <br>
+            Gratuity...........<span id="tipamount" class="tip-amount">$0.00</span>
+            <br>
+            Total Bill.........<span id="totalBill" class="total-bill">$0.00</span>
+          </div>
+       </div> 
+   </div>
+</div>
+    
+</div>
+</div>
+
+<div id="footer_container2">
+    <div id="footer">
+        <!-- Email -->
+        <a onclick="showPopWin('contactmaxwell.html', 400, 425, null);" tagret="_blank" class="share-btn stumbleupon">
+            <i class="fa fa-envelope"></i>
+        </a> &nbsp &nbsp
+        <!-- Twitter -->
+        <a href="https://twitter.com/MiddleTroop" target="_blank" class="share-btn twitter">
+            <i class="fa fa-twitter"></i>
+        </a> &nbsp &nbsp
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/pub/maxwell-troop/37/336/844" target="_blank" class="share-btn linkedin">
+            <i class="fa fa-linkedin"></i>
+        </a> &nbsp &nbsp
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/middletroop/" tagret="_blank" class="share-btn instagram">
+            <i class="fa fa-instagram"></i>
+        </a> 
+    </div>
+</div>
+</body>
+</html>
