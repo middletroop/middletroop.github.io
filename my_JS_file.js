@@ -18,7 +18,30 @@ function randomImg1() {
       myImages1[8] = "http://i.imgur.com/F0RLBzT.gif";
       myImages1[9] = "http://i.imgur.com/A2dZUUJ.gif";
       myImages1[10] = "http://i.imgur.com/a8ujvwf.gif";
-      myImages1[11] = "http://i.imgur.com/0vdTbrh.gif";
+      myImages1[12] = "http://i.imgur.com/cBvBZnT.gif";
+      myImages1[13] = "http://i.imgur.com/N5uwdLx.gif";
+      myImages1[14] = "http://i.imgur.com/5OYEnbC.gif";
+      myImages1[15] = "http://i.imgur.com/04Z5qCa.gif";
+      myImages1[16] = "http://i.imgur.com/rPBq3hn.gif";
+      myImages1[17] = "http://i.imgur.com/FDN6a4I.gif";
+      myImages1[18] = "http://i.imgur.com/c6DAu1e.gif";
+      myImages1[19] = "http://i.imgur.com/q4VlHLp.gif";
+      myImages1[20] = "http://i.imgur.com/i2O5rUx.gif";
+      myImages1[21] = "http://i.imgur.com/Fks7NoL.gif";
+      myImages1[22] = "http://i.imgur.com/htcT8Zf.gif";
+      myImages1[23] = "http://i.imgur.com/KmEAXVz.gif";
+      myImages1[24] = "http://i.imgur.com/5H1Cbf8.gif";
+      myImages1[25] = "http://i.imgur.com/OMYGvO6.gif";
+      myImages1[26] = "http://i.imgur.com/walCjG2.gif";
+      myImages1[27] = "http://i.imgur.com/OeMTzrA.gif";
+      myImages1[28] = "http://i.imgur.com/TRgXHzU.gif";
+      myImages1[29] = "http://i.imgur.com/M6Wwr8q.gif";
+      myImages1[30] = "http://i.imgur.com/gxdfJ9H.gif";
+      myImages1[31] = "http://i.imgur.com/0MyPNFy.gif";
+      myImages1[32] = "http://i.imgur.com/DOJGhID.gif";
+      myImages1[33] = "http://i.imgur.com/pu9qWPI.gif";
+      myImages1[34] = "http://i.imgur.com/kj5VSYF.gif";
+
       var rnd = Math.floor( Math.random() * myImages1.length ); //incorporated other solution
       document.getElementById("image").innerHTML = "<img src='" + myImages1[rnd] + "' alt='image'></img>";
     }
